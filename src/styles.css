@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#484848;
+  }
+  h1{
+    padding-left: 5%;
+    padding-bottom: 15px;
+    border-bottom: #c4c4c4 solid 1.5px;
+    background: #ffffff;
+  }
+  h2 {
+    padding-left: 3%;
+    font-size: 30px;
+  }
+  h3{
+  margin: 0;
+  padding: 10px;
+}
+li{
+  font-weight: bold;
+}
+  input,
+  button {
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px 15px;
+  }
+  input {
+    border: #8f8f8f solid 1px;
+    width: 35%;
+  }
+  button {
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+  }
+  button:hover {
+    background-color: seagreen;
+    color: seashell;
+  }
+  p {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+  }
+  a{
+    font-size: 20px;
+    padding:3px;
+    text-decoration:none;
+    color:#484848;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .input-area {
+    height: 50px;
+    margin: 10px 0 0 10px;
+    text-align: right;
+  }
+  .box {
+    padding: 1em;
+    border-radius: 10px;
+    margin: 5px 0;
+  }
+  .incomplete {
+    background-color: #e4fad2;
+  }
+  .complete {
+    background-color: #d2e7fa;
+  }
+  .list {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dotted #999999;
+    justify-content: space-between;
+  }
+  .Menu-Content{
+    margin: 3px;
+    text-decoration:none;
+    color:#484848;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all  0.5s ease;
+    list-style:none;
+  }
+  .Menu-Content:hover{
+    background-color: #dadada;
+    animation-duration:1px;
+  }
+  .home{
+    text-align: right;
+  }
+  .home > a{
+    font-weight: bold;
+    margin-right: 20px;
+    padding:5px;
+    text-align: right;
+    font-size:14px;
+    color:#999999;
+  }
+  .home > a:hover{
+    background-color:seagreen;
+    color: seashell; 
+    padding:5px;
+    border-radius: 10px;
+  }
+  footer {
+    height: 30px;
+    padding-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #cdcdcd;
+  }
+  .react-tabs__tab-list{
+    margin-bottom: 0 !important;
+  }
+    /* 580px以上に適用される */
+    @media screen and (min-width: 580px) {
+      .container {
+        width: 65%;
+      }
+    }
+    /* 1000px以上に適用される */
+    @media screen and (min-width: 1000px) {
+      .container {
+        width: 1000px;
+      }
+    }
